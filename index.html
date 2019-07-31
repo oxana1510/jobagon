@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jobagon</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="scripts/jquery-3.3.1.min.js"></script>	
+	<script src="scripts/jquery.basictable.min.js"></script>
+	<script>
+		 $(document).ready(function(){
+		 	$("#table").basictable({
+		        breakpoint: 992
+		      });
+		 });
+	</script>
+</head>
+<body>
+	<div class="wrapper bg">
+		<header class="header">
+			<a href="#" class="logo"><img src="img/logo.png" alt="Jobagon"></a>
+			<nav>
+				<div class="mobail-menu"><span></span></div>
+				<ul class="menu">
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Log In</a></li>
+					<li><a href="#">Sign Up</a></li>          
+				</ul>
+			</nav>
+		</header>
+		<main class="main-block">
+			<div class="container">
+				<div class="title-block">
+					<h1>Manage your job search</h1>
+					<a href="#">add a new job</a>
+				</div>
+            <div id="table-click" opendiv=""></div>
+			<div class="table" iddiv="box_1">
+				<table id="table">
+					<thead>
+					<tr>
+						<th><span class="check"><img src="img/company-check.svg" alt="Company" width="20" height="20"></span>Company</th>
+						<th>Title</th>
+						<th>Status</th>
+						<th>Location</th>
+						<th>Applied Date</th>
+					</tr>
+					</thead>
+					<tr>
+						<td><span class="img-check"></span><div><img src="img/adobe.png" alt="Adobe" width="27" height="22"></div>Adobe</td>
+						<td>Sr. Software Engineer</td>
+						<td>Click to Add or Remove</td>
+						<td>San Francisco</td>
+						<td>Jul. 17. 2019</td>
+					</tr>
+					<tr>
+						<td><span class="img-check"><img src="img/tr-check.svg" alt="check" width="30" height="30"></span><div><img src="img/ibm.png" alt="IBM" width="43" height="16" ></div>IBM</td>
+						<td>Backend Engineer</td>
+						<td>Click to Add or Remove</td>
+						<td>Sunnyvale</td>
+						<td>Jul. 17. 2019</td>
+					</tr>
+					<tr>
+						<td><span class="img-check"><img src="img/tr-check.svg" alt="check" width="30" height="30"></span><div><img src="img/adobe.png" alt="Adobe" width="27" height="22"></div>Adobe</td>
+						<td>Sr. Software Engineer</td>
+						<td>Click to Add or Remove</td>
+						<td>San Francisco</td>
+						<td>Jul. 17. 2019</td>
+					</tr>
+					<tr>
+						<td><span class="img-check"></span><div><img src="img/ibm.png" alt="IBM" width="43" height="16"></div>IBM</td>
+						<td>Backend Engineer</td>
+						<td>Click to Add or Remove</td>
+						<td>Sunnyvale</td>
+						<td>Jul. 17. 2019</td>
+					</tr>
+					<tr>
+						<td><span class="img-check"></span><div><img src="img/adobe.png" alt=">Adobe" width="27" height="22"></div>Adobe</td>
+						<td>Sr. Software Engineer</td>
+						<td>Click to Add or Remove</td>
+						<td>San Francisco</td>
+						<td>Jul. 17. 2019</td>
+					</tr>
+					<tr>
+						<td><span class="img-check"></span><div><img src="img/ibm.png" alt="IBM" width="43" height="16"></div>IBM</td>
+						<td>Backend Engineer</td>
+						<td>Click to Add or Remove</td>
+						<td>Sunnyvale</td>
+						<td>Jul. 17. 2019</td>
+					</tr>
+					<tr>
+						<td><span class="img-check"><img src="img/tr-check.svg" alt="check" width="30" height="30"></span><div><img src="img/adobe.png" alt=">Adobe" width="27" height="22"></div>Adobe</td>
+						<td>Sr. Software Engineer</td>
+						<td>Click to Add or Remove</td>
+						<td>San Francisco</td>
+						<td>Jul. 17. 2019</td>
+					</tr>
+					<tr>
+						<td><span class="img-check"></span><div><img src="img/ibm.png" alt="IBM" width="43" height="16"></div>IBM</td>
+						<td>Backend Engineer</td>
+						<td>Click to Add or Remove</td>
+						<td>Sunnyvale</td>
+						<td>Jul. 17. 2019</td>
+					</tr>
+					<tr>
+						<td><span class="img-check"></span><div><img src="img/adobe.png" alt=">Adobe" width="27" height="22"></div>Adobe</td>
+						<td>Sr. Software Engineer</td>
+						<td>Click to Add or Remove</td>
+						<td>San Francisco</td>
+						<td>Jul. 17. 2019</td>
+					</tr>
+					<tr>
+						<td><span class="img-check"></span><div><img src="img/ibm.png" alt="IBM" width="43" height="16"></div>IBM</td>
+						<td>Backend Engineer</td>
+						<td>Click to Add or Remove</td>
+						<td>Sunnyvale</td>
+						<td>Jul. 17. 2019</td>
+					</tr>
+					<tr>
+						<td><span class="img-check"></span><div><img src="img/adobe.png" alt=">Adobe" width="27" height="22"></div>Adobe</td>
+						<td>Sr. Software Engineer</td>
+						<td>Click to Add or Remove</td>
+						<td>San Francisco</td>
+						<td>Jul. 17. 2019</td>
+					</tr>
+					<tr>
+						<td><span class="img-check"></span><div><img src="img/ibm.png" alt="IBM" width="43" height="16"></div>IBM</td>
+						<td>Backend Engineer</td>
+						<td>Click to Add or Remove</td>
+						<td>Sunnyvale</td>
+						<td>Jul. 17. 2019</td>
+					</tr>
+				</table>
+			</div>
+			</div>
+			<div id="box_1" class="tabs-container">
+				<div class="tabs-header">
+					<h2><img src="img/adobe.png" alt="Adobe - Sr. Software Engineer">Adobe - Sr. Software Engineer</h2>
+					<div class="tabs-close" tabindex="0"></div>
+				</div>
+				<div id="responsiveTabs">
+				    <ul>
+				        <li><a href="#tab-1">Job Details</a></li>
+				        <li><a href="#tab-2">Company</a></li>
+				        <li><a href="#tab-3">My Notes</a></li>
+				        <li><a href="#tab-4">Quick Links</a></li>
+				    </ul>
+
+				    <div id="tab-1">
+				    	<table class="table-tabs">
+				    			<tr>
+				    				<td>Company</td>
+				    				<td>Adobe</td>
+				    			</tr>
+				    			<tr>
+				    				<td>Job Title</td>
+				    				<td>Sr. Software Engineer</td>
+				    			</tr>
+				    			<tr>
+				    				<td>Status</td>
+				    				<td>
+				    					<select name="" id="">
+				    						<option value="Unapplied">Unapplied</option>
+				    						<option value="Unapplied2">Unapplied</option>
+				    						<option value="Unapplied3">Unapplied</option>
+				    					</select>
+				    				</td>
+				    			</tr>
+				    			<tr>
+				    				<td>Location</td>
+				    				<td>San Francisco</td>
+				    			</tr>
+				    			<tr>
+				    				<td>Job URL</td>
+				    				<td><a href="#">www.joburlhere.com</a></td>
+				    			</tr>
+				    	</table>
+				    </div>
+				    <div id="tab-2">
+				    	<p><strong>Adibe lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor veniam, quis nostrud exercitation ullamco laboris  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				    	<table class="table-tabs">
+				    			<tr>
+				    				<td>Website:</td>
+				    				<td><a href="#">www.companywebsite.com</a></td>
+				    			</tr>
+				    			<tr>
+				    				<td>Founded:</td>
+				    				<td>2012</td>
+				    			</tr>
+				    			<tr>
+				    				<td>Funding:</td>
+				    				<td>$30M</td>
+				    			</tr>
+				    			<tr>
+				    				<td>Size:</td>
+				    				<td>251-1K employees</td>
+				    			</tr>
+				    			<tr>
+				    				<td>Tags:</td>
+				    				<td><span> Information Technology & Services</span>
+				    					<span>SAAS</span><span>B2B</span></td>
+				    			</tr>
+				    	</table>
+				    </div>
+				    <div id="tab-3">
+				    	<p class="p-brborder"><strong>My notes here</strong>, consectetur adipisicing elit, sed do eiusmod tempor veniam, quis nostrud exercitation ullamco laboris  incididunt ut labore et dolore magna aliqua rure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur.</p>
+				    </div>
+				    <div id="tab-4">
+				    	<table class="table-tabs">
+				    			<tr>
+				    				<td><img src="img/twitter.svg" alt="Twitter" width="36" height="30">Twitter: </td>
+				    				<td><a href="#">@companyname</a></td>
+				    			</tr>
+				    			<tr>
+				    				<td><img src="img/linkedin.svg" alt="linkedin" width="36" height="36">LinkedIn: </td>
+				    				<td><a href="#">Company Name employees you may know</a></td>
+				    			</tr>
+				    			<tr>
+				    				<td><img src="img/glassdoor.png" alt="Glassdoor" width="28" height="38">Glassdoor:</td>
+				    				<td><a href="#">Company Name insider reviews</a></td>
+				    			</tr>
+				    			<tr>
+				    				<td><img src="img/paysa.png" alt="Paysa" width="36" height="36">Paysa: </td>
+				    				<td><a href="#">Company Name compensation details</a></td>
+				    			</tr>
+				    			<tr>
+				    				<td><img src="img/google.png" alt="Google News" width="36" height="36">Google News:</td>
+				    				<td><a href="#">Recent news about Company Name</a></td>
+				    			</tr>
+				    	</table>
+				    </div>
+				</div>
+				<div class="tabs-footer">
+					<button class="button-remove">Remove from List</button>
+					<button class="button-border close">close</button>
+					<button class="button-border add">add To list</button>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="container">
+				<p>© 2019 Jobagon. All Rights Reserved. <a href="#">Terms - Privacy Policy</a></p>
+				<p>Design By Jobagon 2019</p>
+			</div>
+		</footer>
+	</div>
+<script src="scripts/jquery.responsiveTabs.min.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>

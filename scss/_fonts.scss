@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Futura-Medium";
+    font-display: swap;
+    src: url("../fonts/FuturaBT-Medium.eot");
+    src: url("../fonts/FuturaBT-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/FuturaBT-Medium.woff2") format("woff2"),
+        url("../fonts/FuturaBT-Medium.woff") format("woff"),
+        url("../fonts/FuturaBT-Medium.ttf") format("truetype"),
+        url("../fonts/FuturaBT-Medium.svg#FuturaBT-Medium") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {font-family: "HelveticaNeueCyr-Roman";
+    font-display: swap;
+    src: url("../fonts/HelveticaNeueCyr-Roman.eot");
+    src: url("../fonts/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Roman.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {font-family: "HelveticaNeueBold";
+    font-display: swap;
+    src: url("../fonts/HelveticaNeueCyr-Bold.eot");
+    src: url("../fonts/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff"),
+    url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: "HelveticaNeue-Thin3";
+  display: swap;
+  src: url("../fonts/HelveticaNeue-Thin3.eot");
+  src: url("../fonts/HelveticaNeue-Thin3.woff") format("woff"),
+       url("../fonts/HelveticaNeue-Thin3.ttf") format("truetype"),
+       url("../fonts/HelveticaNeue-Thin3.svg#HelveticaNeue-Thin") format("svg"),
+       url("../fonts/HelveticaNeue-Thin3.eot?#iefix") format("embedded-opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+
+$font1: "HelveticaNeue45Light", sans-serif;
+$font2: "Futura-Medium", sans-serif;
+$font3: "HelveticaNeue-Thin3", sans-serif;
+$font-bold: "HelveticaNeueBold", sans-serif;

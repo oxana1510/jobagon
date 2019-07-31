@@ -1,0 +1,17 @@
+footer{
+	.container{
+		padding: 0 2rem 8rem;
+	}
+	p{
+		color: #727272;
+		font-size: 1.4rem;
+		line-height: 2.5rem;
+		text-align: center;
+		a{
+			color: #380572;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+}
